@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-utopian-blog",
+  "description": "Showing Utopian's Posts in Gatsby",
+  "version": "1.0.0",
+  "author": "Hemant Joshi <codingdefined@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.153",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-glamor": "^1.6.11",
+    "gatsby-plugin-react-helmet": "^2.0.3",
+    "gatsby-source-filesystem": "^1.5.16",
+    "gatsby-transformer-json": "^1.0.14",
+    "react-helmet": "^5.2.0",
+    "gatsby-source-utopian": "0.0.4",
+    "prettier": "^1.10.2",
+    "utopian-api": "^0.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
